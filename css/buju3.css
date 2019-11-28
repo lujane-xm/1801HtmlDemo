@@ -1,0 +1,443 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#div1 {
+	width: 100%;
+	height: 100px;
+	background-color: brown;
+	margin: 0px auto;
+}
+
+#div1-1 {
+	margin: 0px auto;
+	width: 1200px;
+	height: 100px;
+	border: 0px solid black;
+}
+
+#div1-1 img {
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#div1-2 {
+	width: 1000px;
+	height: 50px;
+	margin: 0px auto;
+	margin-left: 240px;
+	margin-top: -50px;
+	border: 0px solid blue;
+}
+
+#div1-2 a {
+	text-decoration: none;
+	padding-left: 10px;
+	color: white;
+	font-size: 1.8em;
+	font-family: "微软雅黑";
+	margin-left: 20px;
+}
+
+#div2 {
+	width: 1200px;
+	height: 100px;
+	margin: 0px auto;
+	border: 0px solid black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#div2 img {
+	width: 100%;
+	height: 100%;
+}
+
+#div3 {
+	width: 1200px;
+	height: 1600px;
+	margin: 0px auto;
+	border: 0px solid black;
+}
+
+#div3-1 {
+	width: 100%;
+	height: 130px;
+	margin: 0px auto;
+	border-bottom: #888888 1px solid;
+	float: left;
+}
+
+#div3-1-2 {
+	width: 100%;
+	height: 130px;
+	margin: 0px auto;
+
+}
+
+#div3-1-2 h3 {
+	font-size: 2.3em;
+}
+
+#div3-1-2 p {
+	margin-top: 30px;
+}
+
+#div3-2 {
+	width: 70%;
+	height: 88%;
+	border: 0px solid black;
+	float: left;
+	margin-top: 50px;
+}
+
+#div3-2 img {
+	margin-left: 160px;
+}
+
+#div3-2 p {
+	font-size: 1.2em;
+	line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#div3-3 {
+	width: 26%;
+	height: 88%;
+	border: 0px solid black;
+	float: left;
+	margin-top: 50px;
+	margin-left: 3.5%;
+}
+
+#div3-3-1 {
+	width: 100%;
+	height: 300px;
+	border: 1px solid #BEBEBE;
+}
+
+#div3-3-1 span {
+	font-size: 25px;
+	line-height: 60px;
+	margin-left: 15px;
+}
+
+#div3-3-1 hr {
+	width: 88%;
+	margin: 0px auto;
+}
+
+#div3-3-1 p {
+	line-height: 40px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#div3-3-1 a {
+	color: black;
+	text-decoration: none;
+}
+
+#div3-3-1 a:hover {
+	text-decoration: underline;
+}
+
+#div3-3-2 {
+	width: 100%;
+	height: 400px;
+	border: 1px solid #BEBEBE;
+	margin-top: 70px;
+}
+
+#div3-3-2 span {
+	font-size: 25px;
+	line-height: 60px;
+	margin-left: 15px;
+}
+
+#div3-3-2 hr {
+	width: 88%;
+	margin: 0px auto;
+}
+
+#xxi {
+	width: 50%;
+	height: 84%;
+	border: 0px solid red;
+	float: left;
+}
+
+#xxi img {
+	width: 130px;
+	height: 90px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#xx2 {
+	width: 48%;
+	height: 84%;
+	border: 0px solid blue;
+	float: left;
+}
+
+#xx2 img {
+	width: 130px;
+	height: 90px;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+#xxi p {
+	margin-left: 10px;
+}
+
+#xxi a {
+	text-decoration: none;
+	color: black;
+}
+
+#xxi a:hover {
+	text-decoration: underline;
+}
+
+#xx2 p {
+	margin-left: 10px;
+}
+
+#xx2 a {
+	text-decoration: none;
+	color: black;
+}
+
+#xx2 a:hover {
+	text-decoration: underline;
+}
+
+#div3-3-3 {
+	margin: 0px auto;
+	width: 100%;
+	height: 400px;
+	border: 1px solid #BEBEBE;
+	margin-top: 50px;
+}
+
+#div3-3-3>span {
+	font-size: 25px;
+	line-height: 60px;
+	margin-left: 15px;
+}
+
+#div3-3-3 hr {
+	width: 88%;
+	margin: 0px auto;
+}
+
+#div3-3-3 ul li {
+	list-style-type: none;
+	margin-left: 20px;
+	line-height: 55px;
+}
+
+#div3-3-3 ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+#div3-3-3 ul li a:hover {
+	text-decoration: underline;
+}
+
+/* #div3-3-3 dd{
+		width: 10px;
+		height: 10px;
+		background-color: red;
+		
+} */
+.span {
+	background-color: red;
+	padding: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	margin-right: 10px;
+}
+
+.span1 {
+	background-color: #BEBEBE;
+	padding: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	margin-right: 10px;
+}
+
+#div4 {
+	border: 0px solid black;
+	width: 100%;
+	height: 200px;
+}
+
+
+#div3-4-3 {
+	margin: 0px auto;
+	width: 100%;
+	border: 0px solid black;
+	height: 200px;
+	margin-top: 100px;
+	background-color: red;
+}
+
+#lx {
+	border: 0px solid black;
+	width: 30%;
+	height: 150px;
+	margin-top: 30px;
+	margin-left: 40px;
+	border-right: #000000 2px solid;
+	float: left;
+}
+
+#lx1 {
+	border: 0px solid black;
+	width: 30%;
+	height: 150px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-right: #000000 2px solid;
+}
+
+#lx2 {
+	width: 30%;
+	height: 150px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#im1 span {
+	font-size: 32px;
+	font-family: "微软雅黑";
+	color: red;
+	margin-left: 15.6em;
+	text-shadow: 3px 0px 3px black;
+
+}
+
+#div3-4-2 span {
+	font-size: 32px;
+	font-family: "微软雅黑";
+	color: red;
+	margin-left: 16.6em;
+	text-shadow: 3px 0px 3px black;
+
+}
+
+#lx p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#lx1 p {
+	line-height: 20px;
+	font-size: 18px;
+}
+
+#lx1 input {
+	width: 300px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+#lx2 p {
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#lx2 span {
+	margin-right: 20px;
+}
+
+
+#ym {
+	margin: 0px auto;
+	width: 1200px;
+	height: 100px;
+	border: 0px solid red;
+	float: left;
+}
+
+#ym ul li {
+	float: left;
+	list-style-type: none;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+#ym ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid black;
+}
+
+#ym ul li a:hover {
+	background-color: red;
+}
+
+#div1-2 a:hover{text-decoration: underline;color: bisque;}
+
+
+
+
+
+#lx2 a{color: black;text-decoration: none;}
+#lx2 a:hover{color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
